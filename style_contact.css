@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.nav-list {
+  width: 50%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover {
+  color: rgb(202, 95, 23);
+}
+.rightNav {
+  /* background-color:black; */
+  width: 50%;
+  text-align: right;
+  padding: 0 23px;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 33%;
+  border: 3px solid salmon;
+  border-radius: 50px;
+}
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid gold;
+  border-radius: 9px;
+}
+.firstsection {
+  height: 70vh;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("contact\ background.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+.section {
+  color: rgb(63, 63, 63);
+}
+.text-big {
+  font-size: 75px;
+  /* text-align: center; */
+}
+.contact {
+  background-color: rgb(187, 183, 175);
+  height: 80vh;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+.input {
+  margin-bottom: 30px;
+  /* /* width: 20px; */
+  /* padding: 30px; */
+  
+  
+}
+.btn {
+  padding: 8px 20px;
+  margin: 7px 0;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  /* font-size: 16px; */
+  background: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.text-footer {
+  text-align: center;
+  padding-top: 30px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+.section-4 {
+  background-color: rgb(250, 189, 148);
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-footer {
+  height: 50px;
+  border-radius: 20%;
+  margin-right: 70px;
+  margin-left: 30px;
+  width: 60px;
+}
+.sub-section-4-a {
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.sub-section-4-b {
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 10px;
+}
+
+.list {
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.list:hover {
+  color: rgb(93, 100, 189);
+}
+
+.sub-section-4-c {
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+}
+#add {
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
+.fa {
+  margin-right: 20px;
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
